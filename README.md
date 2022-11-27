@@ -28,7 +28,8 @@ app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
 ```
-Файл ```dockerfile
+Файл 
+```dockerfile
 FROM node:latest
 WORKDIR /app
 
